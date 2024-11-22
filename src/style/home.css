@@ -1,0 +1,25 @@
+.hero {
+    background-color: rgb(70, 135, 160);
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    gap: 5rem;
+    padding: 7rem;
+    padding-top: 12rem;
+    padding-bottom: 80rem;
+}
+
+.cuad {
+    background-color: skyblue;
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    padding-top: 5rem;
+}

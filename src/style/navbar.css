@@ -1,0 +1,22 @@
+.nav{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1,5rem;
+}
+
+.logo {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.links {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
