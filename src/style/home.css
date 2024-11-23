@@ -1,25 +1,93 @@
-.hero {
-    background-color: rgb(70, 135, 160);
+.home {
+    display: flex;
+    flex-direction: column;
 }
 
-.cuadros {
+.hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-bottom: 20rem;
+}
+
+.titulo {
+    font-size: 100px;
+    text-align: center;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.hero2 {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 40px;
-    gap: 5rem;
-    padding: 7rem;
-    padding-top: 12rem;
-    padding-bottom: 80rem;
+    padding-bottom: 20rem;
 }
 
-.cuad {
-    background-color: skyblue;
-    border: 5px solid black;
-    border-radius: 50px;
-    width: 15rem;
-    height: 15rem;
-    text-align: center;
-    padding-top: 5rem;
+.hero2Izq {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding-left: 3rem;
 }
+
+.subtitulo {
+    text-align: center;
+    font-size: 70px;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+
+.parrafo2 {
+    font-size: 30px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.hero2Der {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding-right: 3rem;
+}
+
+.imagen {
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 6rem;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+.datos {
+    display: flex;
+    font-size: 30px;
+}
+
+.dato1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dato1 div {
+    padding: 5rem;
+}
+
+.dato2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dato2 div {
+    padding: 5rem;
+}
+
+
+

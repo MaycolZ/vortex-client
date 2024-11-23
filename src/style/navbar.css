@@ -1,14 +1,41 @@
 .nav{
-    background-color: skyblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1,5rem;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 
 .logo {
-    font-size: 5rem;
-    padding: 1rem;
+    padding-left: 3rem;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-link:hover .logo {
+    transform: scale(1.1);
+}
+
+
+.medio {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.medio a:hover {
+    transform: scale(1.1);
+    color: blue;
 }
 
 .links {
@@ -18,5 +45,10 @@
     gap: 4rem;
     justify-content: space-between;
     padding: 3rem;
+}
+
+.links a:hover {
+    transform: scale(1.1);
+    color: blue;
 }
 
